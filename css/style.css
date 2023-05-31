@@ -1,0 +1,280 @@
+/* header */
+
+#main-header {
+    background: url("../Images/banner.jpg");
+    background-size: cover;
+    position: relative;
+}
+
+
+.container {
+    padding: 1rem;
+}
+
+.global-header h1 {
+    color: white;
+    font-size: 20px;
+    position: relative;
+}
+
+#burger-menu {
+    cursor: pointer;
+    height: 27px;
+    width: 27px;
+    z-index: 2;
+    position: absolute;
+    top: 5%;
+    left: 88%;
+}
+
+#burger-menu span,
+#burger-menu span:before,
+#burger-menu span:after {
+    background: #fff;
+    display: block;
+    height: 4px;
+    opacity: 1;
+    position: absolute;
+    transition: 0.3s ease-in-out;
+}
+
+#burger-menu span:before,
+#burger-menu span:after {
+    content: "";
+}
+
+#burger-menu span {
+    right: 0px;
+    top: 13px;
+    width: 27px;
+}
+
+#burger-menu span:before {
+    left: 0px;
+    top: -10px;
+    width: 16px;
+}
+
+#burger-menu span:after {
+    left: 0px;
+    top: 10px;
+    width: 20px;
+}
+
+#burger-menu.close span {
+    transform: rotate(-45deg);
+    top: 13px;
+    width: 27px;
+}
+
+#burger-menu.close span:before {
+    top: 0px;
+    transform: rotate(90deg);
+    width: 27px;
+}
+
+#burger-menu.close span:after {
+    top: 0px;
+    left: 0;
+    transform: rotate(90deg);
+    opacity: 0;
+    width: 0;
+}
+
+.texte-burger {
+    color: white;
+}
+
+
+
+.global-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.texte-header h1 {
+    color: white;
+}
+
+.texte-header {
+    margin-top: 15%;
+
+}
+
+.style-title-1 {
+    color: #08e8a6;
+    margin-bottom: 3%;
+    font-size: 25px;
+}
+
+.style-title-2 {
+    color: white;
+    font-size: 42px;
+    margin-left: 2%;
+}
+
+.lorem-header-texte {
+    margin-top: 6%;
+    color: white;
+    font-style: normal;
+}
+
+.button-header {
+    padding: 9px 23px;
+    line-height: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: white;
+    border-radius: 10px;
+    border: 2px solid transparent;
+    text-align: center;
+    margin-top: 10%;
+    background-color: #08e8a6;
+    width: 36%;
+}
+
+.header-img {
+    background: url("../Images/top.png")no-repeat center;
+    height: 19rem;
+    background-size: contain;
+    margin-top: 10%;
+}
+
+.chevron {
+    font-size: 62px;
+    margin-top: -4rem;
+}
+
+.fa-chevron-circle-left:before,
+.fa-circle-chevron-left:before {
+    color: #08e8a6;
+    position: absolute;
+    top: 98%;
+    left: 1%;
+}
+
+.fa-chevron-circle-right:before,
+.fa-circle-chevron-right:before {
+    color: #08e8a6;
+    position: absolute;
+    top: 98%;
+    left: 33%;
+}
+
+@media (min-width:767px) and (max-width:1024px) {
+    #burger-menu {
+        display: none;
+    }
+
+    .texte-burger {
+        display: block;
+        margin-top: 15px;
+    }
+
+    .global-header {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    #menu-header {
+        display: flex;
+
+    }
+
+    #menu-header li {
+        padding: 10px;
+    }
+
+    .flex-header {
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .texte-header {
+        width: 40%;
+        margin-top: 8%;
+    }
+
+    .header-img {
+        width: 40%;
+    }
+
+    .fa-chevron-circle-left:before,
+    .fa-circle-chevron-left:before {
+        top: 97%;
+        left: 2%;
+    }
+
+    .fa-chevron-circle-right:before,
+    .fa-circle-chevron-right:before {
+        top: 97%;
+        left: 14%;
+    }
+
+    .header-img {
+        margin-top: 2%;
+    }
+
+}
+
+@media (min-width:1024px) {
+
+    .fa-chevron-circle-left:before,
+    .fa-circle-chevron-left:before {
+        top: 98%;
+        left: 2%;
+    }
+
+    .fa-chevron-circle-right:before,
+    .fa-circle-chevron-right:before {
+        top: 98%;
+        left: 14%;
+    }
+
+    .chevron {
+        font-size: 62px;
+        margin-top: -2rem;
+    }
+
+    .lorem-header-texte {
+        font-size: 28px;
+    }
+
+    .header-img {
+        margin-top: 7%;
+    }
+}
+
+@media (min-width:320px)and (max-width:766px) {
+    body {
+        overflow-x: hidden;
+    }
+
+    #burger-menu {
+        display: block;
+    }
+
+    #menu-header.overlay {
+        display: block;
+        color: #fff;
+        font-size: 32px;
+        /* margin-bottom: 15px; */
+        text-decoration: none;
+        margin-left: -53%;
+        margin-top: 56%;
+
+    }
+
+    ul {
+        width: 100%;
+        display: none;
+    }
+
+    ul li {
+        display: block;
+        text-align: center;
+        margin-top: 14%;
+    }
+
+
+}
