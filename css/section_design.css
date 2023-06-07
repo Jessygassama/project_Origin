@@ -1,20 +1,21 @@
-.line-vertical {
-    margin-top: 16%;
-    display: flex;
+.img-homes-size{
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
-.line {
-    margin-left: auto;
-    margin-right: auto;
-    width: 15em;
-    background: #08B98C;
-    height: 14px;
+.img-homes{
+    padding-top: 3.125rem;
+    padding-bottom:3.125rem;
 }
 
-.line_shadow {
-    margin-left: auto;
-    margin-right: auto;
-    width: 3em;
-    height: 15px;
-    background: rgb(246, 246, 246);
+.texte-homes h2{
+    font-weight: bold;
+    font-size: 1.6rem;
+}
+
+.texte-homes p{
+    color:#CBCBCB;
+    margin-top: 1.06rem;
 }
