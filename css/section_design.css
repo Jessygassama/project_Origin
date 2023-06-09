@@ -1,21 +1,70 @@
-.img-homes-size{
+.img-homes-size {
     display: block;
     width: 100%;
     height: 100%;
     object-fit: cover;
 }
 
-.img-homes{
+.img-homes {
     padding-top: 3.125rem;
-    padding-bottom:3.125rem;
+    padding-bottom: 3.125rem;
+
 }
 
-.texte-homes h2{
+.texte-homes h2 {
     font-weight: bold;
     font-size: 1.6rem;
 }
 
-.texte-homes p{
-    color:#CBCBCB;
+.texte-homes p {
+    color: #CBCBCB;
     margin-top: 1.06rem;
+}
+
+@media (min-width:767px) and (max-width:1024px) {
+    .global-homes {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .texte-homes {
+        width: 43%;
+    }
+
+    .img-homes {
+        width: 57%;
+        padding-right: 2rem;
+    }
+
+    .texte-homes h2 {
+        padding-top: 7rem;
+    }
+
+    .texte-homes p {
+        font-size: 1.25rem;
+        margin-top: 2.06rem;
+    }
+}
+
+@media(min-width:1025px) {
+    .global-homes {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .img-homes {
+        width: 50%;
+        padding-right: 2rem;
+    }
+
+    .texte-homes {
+        width: 50%;
+        padding-top: 9rem;
+    }
+
+    .texte-homes p {
+        font-size: 2.0625rem;
+    }
+
+
 }
