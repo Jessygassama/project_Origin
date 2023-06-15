@@ -1,0 +1,72 @@
+.background_choose{
+    background:url(../Images/banner.jpg);
+    background-size: cover;
+}
+
+.title-choose{
+    font-weight: bold;
+    font-size: 1.6rem;
+    color: white;
+    text-align: center;
+    margin-bottom: 2rem;
+    margin-top: 1.5rem;
+}
+
+.line-choose{
+    width: 14rem;
+}
+
+.text-lorem-choose{
+    margin-top: 1.06rem;
+    font-style: normal;
+}
+
+.text-lorem-choose p{
+    color: white;
+}
+
+.choose-icone1{
+    margin-top: 1.625rem;
+    display: flex;
+    margin-bottom: 1.625rem;
+}
+
+.choose-icone1 p{
+    color: white;
+    align-items: center;
+    display: flex;
+    margin-left: 0.3125rem;
+}
+
+@media (min-width:768px) and (max-width:1024px){
+    .global-flex-choose{
+        display: flex;
+        justify-content: space-around;
+    }
+}
+
+@media (min-width:1025px){
+    .container{
+        max-width: 1200px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    
+    .global-flex-choose{
+        display: flex;
+        justify-content: center;
+    }
+
+    .global-flex1{
+        display: flex;
+    }
+
+    .global-flex2{
+        display: flex;
+    }
+
+    .choose-icone1{
+        padding-left: 0.625rem;
+    }
+
+}
