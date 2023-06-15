@@ -1,0 +1,139 @@
+.service {
+    text-align: center;
+}
+
+
+.service h2 {
+    font-weight: bold;
+    font-size: 1.6rem;
+}
+
+.service p {
+    color: #CBCBCB;
+    margin-top: 1.06rem;
+}
+
+.architect {
+    background-size: cover;
+    color: #1163D1;
+}
+
+
+.style-architect {
+    font-weight: bold;
+    font-size: 0.9375rem;
+    color: #08B98C;
+    margin-top: 4.06rem;
+    margin-bottom: 3.06rem;
+}
+
+
+.button-service{
+    padding: 0.5625rem 1.4375rem;
+    line-height: normal;
+    font-weight: 400;
+    font-size: 1rem;
+    color: white;
+    border-radius: 0.625rem;
+    border: 0.125rem solid transparent;
+    text-align: center;
+    margin-top: 1.625rem;
+    background-color: #08e8a6;
+    width: 6.36rem;
+    display: none;
+}
+
+
+
+@media (min-width:320px) and (max-width:766px) {
+    .architect {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .button-service1{
+        padding: 0.5625rem 1.4375rem;
+        line-height: normal;
+        font-weight: 400;
+        font-size: 1rem;
+        color: white;
+        border-radius: 0.625rem;
+        border: 0.125rem solid transparent;
+        text-align: center;
+        margin-top: 1.625rem;
+        background-color: #08e8a6;
+        width: 6.36rem;
+    }
+
+    .button-service1{
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+}
+
+
+
+@media (min-width:767px) and (max-width:1024px) {
+
+    .architect {
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .service-flex-1 {
+        display: flex;
+        align-items: center;
+    }
+
+    .service-flex-2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .service-flex-3 {
+        display: flex;
+        align-items: center;
+    }
+
+    .button-service{
+        display: block;
+    }
+
+    .button-service1{
+        display: none;
+    }
+
+}
+
+@media (min-width:1025px) {
+    .container {
+        max-width: 1200px;
+        margin-right: auto;
+        margin-left: auto;
+        width: 100%;
+    }
+
+    .architect {
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .service-flex-1 {
+        display: flex;
+        align-items: center;
+    }
+
+    .service-flex-2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .service-flex-3 {
+        display: flex;
+        align-items: center;
+    }
+}
