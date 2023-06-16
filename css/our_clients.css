@@ -1,0 +1,101 @@
+.title-client{
+    margin-bottom: 2rem;
+    margin-top: 1.5rem;
+}
+.title-client h3{
+    font-weight: bold;
+    font-size: 1.6rem;
+}
+
+.text-client p{
+    border: black solid 2px;
+    padding: 16px 35px;
+}
+
+.text-client{
+    margin-bottom: 1.25rem;
+}
+
+.client-icone{
+    display: flex;
+    align-items: center;
+}
+
+.client-icone p{
+    margin-left: 0.625rem;
+}
+
+.fa-solid, .fas {
+    font-weight: 900;
+    border: green solid 2px;
+    background: green;  
+}
+
+.arrow-left{
+    display: none;
+}
+
+.arrow-right{
+    display: none;
+}
+
+@media (min-width:768px) and (max-width:1024px){
+    
+    .global-flex-client{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .text-client{
+        width: 50%;
+    }
+
+    .arrow-left{
+        display: block;
+    }
+    
+    .arrow-right{
+        display: block;
+    }
+
+    .title-client h3{
+        text-align: center;
+    }
+    .client-icone{
+        margin-left: 11rem;
+    }
+}
+
+@media (min-width:1025px){
+    .container{
+        max-width: 1200px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .global-flex-client{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .text-client{
+        width: 50%;
+    }
+
+    .arrow-left{
+        display: block;
+    }
+    
+    .arrow-right{
+        display: block;
+    }
+
+    .title-client h3{
+        text-align: center;
+    }
+    .client-icone{
+        margin-left: 15rem;
+    }
+}
+
