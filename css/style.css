@@ -175,12 +175,12 @@
         text-decoration: none;
     }
 
-    ul {
+    #menu-header {
         width: 100%;
         display: none;
     }
 
-    ul li {
+    #menu-header li {
         display: block;
         text-align: center;
         margin-top: 5.14rem;
@@ -236,12 +236,12 @@
         text-decoration: none;
     }
 
-    ul {
+    #menu-header {
         width: 100%;
         display: none;
     }
 
-    ul li {
+    #menu-header li {
         display: block;
         text-align: center;
         margin-top: 5.14rem;
