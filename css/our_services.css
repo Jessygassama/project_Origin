@@ -43,6 +43,9 @@
     cursor: pointer;
 }
 
+.button-header{
+    display: none;
+}
 
 
 @media (min-width:320px) and (max-width:766px) {
@@ -71,6 +74,7 @@
         margin-right: auto;
     }
 
+   
 }
 
 
@@ -102,8 +106,12 @@
         display: block;
     }
 
-    .button-service1{
+    .button-service{
         display: none;
+    }
+
+    .button-header{
+        display: block;
     }
 
 }
@@ -136,11 +144,11 @@
         align-items: center;
     }
 
-    .button-service1{
+    .button-service{
         display: none;
     }
 
-    .button-service{
+    .button-header{
         display: block;
     }
 }
