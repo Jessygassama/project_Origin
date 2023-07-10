@@ -52,7 +52,7 @@
                         maiores cupiditate eius aperiam aspernatur fugiat nisi nemo.</p>
                     <button class="button-header">CONTACT</button>
                 </div>
-                <div class="header-img"></div>
+                    <img src="Images/top.png" alt="" class="header-img">
             </div>
         </div>
     </header>
@@ -71,7 +71,7 @@
                         molestias aperiam, facere quisquam modi harum cupiditate quos quae. Lorem ipsum dolor sit, amet
                         consectetur adipisicing elit. Enim ullam cum eos deleniti molestias at nostrum consequuntur eius
                         unde, possimus, quibusdam esse iusto fugiat.</p>
-                        <button class="button-header">READ MORE</button>
+                    <button class="button-header">READ MORE</button>
                 </div>
             </div>
         </div>
@@ -93,7 +93,7 @@
 
                 <div class="service-flex-1">
                     <div class="architect-icone-2">
-                        <img src="./Images/at_icon2.png" alt="">
+                        <img src="./Images/at_icon2.png" alt="#">
                         <h2>ARCHITECTURE<br>BUREAU</h2>
                     </div>
                 </div>
@@ -101,12 +101,12 @@
 
                 <div class="service-flex-2">
                     <div class="architect-icone-1">
-                        <img src="./Images/at_icon1.png" class="icone_style_1">
+                        <img src="./Images/at_icon1.png" class="icone_style_1" alt="#">
                         <h2>HOUSSE DESIGN</h2>
                     </div>
                     <p class="style-architect">ARCHITECT</p>
                     <div class="architect-icone-4">
-                        <img src="./Images/at_icon4.png" alt="">
+                        <img src="./Images/at_icon4.png" alt="#">
                         <h2>PERFECT PROJECTS</h2>
                     </div>
                     <button class="button-header">READ MORE</button>
@@ -114,7 +114,7 @@
 
                 <div class="service-flex-3">
                     <div class="architect-icone-3">
-                        <img src="./Images/at_icon5.png" alt="">
+                        <img src="./Images/at_icon5.png" alt="#">
                         <h2>REAL ESTATE</h2>
                     </div>
                     <button class="button-service">READ MORE</button>
@@ -140,25 +140,25 @@
 
                 <div class="global-flex1">
                     <div class="choose-icone1">
-                        <img src="./Images/chose_icon1.png">
+                        <img src="./Images/chose_icon1.png" alt="#">
                         <p>99%<br>SATISFIED CLIENTS</p>
                     </div>
 
                     <div class="choose-icone1">
-                        <img src="./Images/chose_icon2.png">
+                        <img src="./Images/chose_icon2.png" alt="#" >
                         <p>4700+<br>AWESOME HOUSE</p>
                     </div>
                 </div>
 
                 <div class="global-flex2">
                     <div class="choose-icone1">
-                        <img src="./Images/chose_icon3.png">
+                        <img src="./Images/chose_icon3.png" alt="#">
                         <p>4500+<br>CLIENTS</p>
                     </div>
 
 
                     <div class="choose-icone1">
-                        <img src="./Images/chose_icon4.png">
+                        <img src="./Images/chose_icon4.png" alt="#">
                         <p>19000+<br>DAILY ARCHITECT</p>
                     </div>
                 </div>
@@ -205,40 +205,49 @@
                 <p>psum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor</p>
             </div>
 
-            <form action="" class="custom-form">
+            <form>
 
-                <div class="flex-footer-global">
+                <div class="flex-main-globa">
+
                     <div class="flex-footer-1">
                         <div class="name-footer">
-                            <p class="size-footer">Name</p>
-                            <input type="text" name="name" id="" class="form-control">
+                            <label for="name">Name</label><br>
+                            <input type="text"  name="user_name" class="form-control ">
                         </div>
-
+        
                         <div class="email-footer">
-                            <p class="size-footer">Email</p>
-                            <input type="text" name="Email" id="" class="form-control">
+                          <label for="mail">Email</label><br>
+                          <input type="email"  name="user_email" class="form-control">
                         </div>
                     </div>
+
                     <div class="flex-footer-2">
-                        <div class="num-footer">
-                            <p class="size-footer">Phone Number</p>
-                            <input type="text" name="Phone Number" id="" class="form-control">
-                        </div>
-                        <div class="text-footer">
-                            <p class="size-footer">Select Service</p>
-                            <input type="text" name="Select Service" id="" class="form-control">
-                        </div>
+                        <div class="number-footer">
+                          <label for="number">Phone number</label><br>
+                          <input type="text"  name="number" class="form-control ">
+                      </div>
+          
+                      <div class="service-footer">
+                          <label  for="number">Select Service</label><br>
+                          <input type="text"  name="serbice" class="form-control">
+                      </div>
+
                     </div>
+
                 </div>
+                <div class="message-footer">
+                    <label class="style-texte" for="msg">Messages</label><br>
+                    <textarea id="msg" name="user_message" class="form-control1"></textarea>
+                  </div>
+    
 
 
-                <div class="mess-footer">
-                    <p class="size-footer">Message</p>
-                    <textarea name="" id="" rows="3" class="form-control"></textarea>
-                </div>
-            </form>
+  
+                
+              <button  type="submit" class="button-footer">SEND</button>
 
-            <div class="button-footer">SEND</div>
+              </form>
+
 
         </div>
 
