@@ -125,15 +125,20 @@
 }
 
 .header-img {
-    background: url("../Images/top.png")no-repeat center;
-    height: 19rem;
-    background-size: contain;
-    margin-top: 1rem;
+    
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
 #menu-header li a {
    text-decoration: none;
    color: white;
+}
+
+.logo{
+    cursor: pointer;
 }
 
 
@@ -253,6 +258,7 @@
 
     .header-img {
         width: 40%;
+
     }
 
 }
